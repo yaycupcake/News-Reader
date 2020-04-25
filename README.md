@@ -1,4 +1,5 @@
 ![](blob-ban.gif)
+
 *is this space themed enough?*
 
 # PROJECT 2 README <!-- omit in toc -->
@@ -31,7 +32,11 @@ _**News Reader** is an app that will let people search for news. It will allow p
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
+<details>
+
 ![Wireframe](wireframe.JPG)
+
+</details>
 
 <br>
 
