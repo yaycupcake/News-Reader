@@ -31,7 +31,7 @@ _**News Reader** is an app that will let people search for news. It will allow p
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-![Wireframe](wireframe.jpg)
+![Wireframe](wireframe.JPG)
 
 <br>
 
