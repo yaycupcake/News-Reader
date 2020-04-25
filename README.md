@@ -97,19 +97,25 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ```
 src
-|__ assets/
-      |__ data-tests
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-      |__ Hero.jsx
-      |__ Ipsum.jsx
-      |__ Lorem.jsx
-      |__ CTA.jsx
-      |__ Footer.jsx
+|__ App/
+      |__ index.js
+      |__ App.css
+|__ Header/
+      |__ index.js
+      |__ Header.css
+|__ SiteTitle/
+      |__ index.js
+      |__ SiteTitle.css
+|__ SearchBar/
+      |__ index.js
+      |__ SearchBar.css
+|__ Page/
+      |__ index.js
+      |__ Page.css      
+|__ NewsCard/
+      |__ index.js
+      |__ NewsCard.css
+
 ```
 
 <br>
@@ -122,10 +128,10 @@ src
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    App    | functional |   y   |   y   | _The file in which everything will stem from._               |
 |    Header    | functional |   n   |   y   | _Will be the header area of the page, including app title and search bar._               |
-|    Title    | functional |   n   |   y   | _Will be the title of the site itself. Will be rendered inside the header._               |
-|    Search Bar    | functional |   n   |   y   | _The search bar. Will be rendered inside the header._               |
+|    SiteTitle    | functional |   n   |   y   | _Will be the title of the site itself. Will be rendered inside the header._               |
+|    SearchBar    | functional |   n   |   y   | _The search bar. Will be rendered inside the header._               |
 |    Page    | functional |   n   |   y   | _Essentially the main content container._               |
-|    _    | functional |   n   |   y   | __               |
+|    NewsCard    | functional |   n   |   y   | _Will contain the contents of a given news article, including title, author, source, and article description or contents preview._               |
 |    _    | functional |   n   |   y   | __               |
 |    _    | functional |   n   |   y   | __               |
 |    _    | functional |   n   |   y   | __               |
