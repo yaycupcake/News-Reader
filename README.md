@@ -131,8 +131,8 @@ src
 |    SiteTitle    | functional |   n   |   y   | _Will be the title of the site itself. Will be rendered inside the header._               |
 |    SearchBar    | functional |   n   |   y   | _The search bar. Will be rendered inside the header._               |
 |    Page    | functional |   n   |   y   | _Essentially the main content container._               |
-|    NewsCard    | functional |   n   |   y   | _Will contain the contents of a given news article, including title, author, source, and article description or contents preview._               |
-|    _    | functional |   n   |   y   | __               |
+|    NewsCard    | functional |   n   |   y   | _Will contain the contents of a given news article, including title, author, and source._               |
+|    NewsBody    | functional |   n   |   y   | _Will contain the article's description and/or contents preview._               |
 |    _    | functional |   n   |   y   | __               |
 |    _    | functional |   n   |   y   | __               |
 |    _    | functional |   n   |   y   | __               |
