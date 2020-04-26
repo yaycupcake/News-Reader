@@ -44,7 +44,7 @@ _**News Reader** is an app that will let people search for news. It will allow p
 
 > The Minimum Viable Product should be a well-planned and easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **News Reader** will be responsive, utilize React Router, and pull data from the News API. It will display news headlines and some content from news articles (as allowed by the API's free tier), based on a user's search input._
 
 <br>
 
@@ -72,18 +72,15 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Libraries
 
-> Use this section to list all supporting libraries and their role in the project.
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |   React Router   | _To create multiple "pages" accessed via different URLs._ |
-| Axios | _To pull data from the API._ |
+|      Axios       | _To pull data from the API._ |
+|    Storybook     | _To design components_ |
 
 <br>
 
 #### Data
-
-> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
@@ -111,10 +108,25 @@ src
       |__ SearchBar.css
 |__ Page/
       |__ index.js
-      |__ Page.css      
+      |__ Page.css
 |__ NewsCard/
       |__ index.js
       |__ NewsCard.css
+|__ NewsBody/
+      |__ index.js
+      |__ NewsBody.css
+|__ NewsImage/
+      |__ index.js
+      |__ NewsImage.css
+|__ SettingsPage/
+      |__ index.js
+      |__ SettingsPage.css
+|__ Setting/
+      |__ index.js
+      |__ Setting.css
+|__ SettingToggler/
+      |__ index.js
+      |__ SettingToggler.css
 
 ```
 
@@ -128,14 +140,16 @@ src
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    App    | functional |   y   |   y   | _The file in which everything will stem from._               |
 |    Header    | functional |   n   |   y   | _Will be the header area of the page, including app title and search bar._               |
-|    SiteTitle    | functional |   n   |   y   | _Will be the title of the site itself. Will be rendered inside the header._               |
+|    SiteTitle    | functional |   n   |   n   | _Will be the title of the site itself. Will be rendered inside the header._               |
 |    SearchBar    | functional |   n   |   y   | _The search bar. Will be rendered inside the header._               |
 |    Page    | functional |   n   |   y   | _Essentially the main content container._               |
 |    NewsCard    | functional |   n   |   y   | _Will contain the contents of a given news article, including title, author, and source._               |
 |    NewsBody    | functional |   n   |   y   | _Will contain the article's description and/or contents preview._               |
-|    _    | functional |   n   |   y   | __               |
-|    _    | functional |   n   |   y   | __               |
-|    _    | functional |   n   |   y   | __               |
+|    NewsImage    | functional |   n   |   y   | _Will display the image for the article, if any._               |
+|    SettingsPage    | functional |   n   |   y   | _The page for settings._               |
+|    Setting    | functional |   n   |   y   | _An individual setting._               |
+|    SettingToggler    | functional |   n   |   y   | _The toggler for an individual setting._               |
+
 
 
 <br>
@@ -148,9 +162,22 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Create files for each component |    H     |     1 hrs      |     n hrs     |     TBD     |
+| Set up React Router |    H     |     3 hrs      |     n hrs     |     TBD     |
+| Define general app structure |    H     |     2 hrs      |     n hrs     |     TBD     |
+| Connect to API |    H     |     2 hrs      |     n hrs     |     TBD     |
+| Hook up search bar |    H     |     4 hrs      |     n hrs     |     TBD     |
+| Pass search query results to other components |    H     |     4 hrs      |     n hrs     |     TBD     |
+| Handle empty search queries |    H     |     2 hrs      |     n hrs     |     TBD     |
+| Settings page settings |    H     |     4 hrs      |     n hrs     |     TBD     |
+| Design in storybook |    H     |     2 hrs      |     n hrs     |     TBD     |
+| General CSS |    H     |     2 hrs      |     n hrs     |     TBD     |
+| Mobile CSS |    H     |     2 hrs      |     n hrs     |     TBD     |
+| Tablet CSS |    H     |     3 hrs      |     n hrs     |     TBD     |
+| Desktop CSS |    H     |     3 hrs      |     n hrs     |     TBD     |
+| Clean up code |    H     |     2 hrs      |     n hrs     |     TBD     |
+| General Troubleshooting Time Allotment |    H     |     4 hrs      |     n hrs     |     TBD     |
+| TOTAL               |          |     40 hrs      |     n hrs     |     TBD     |
 
 <br>
 
@@ -166,10 +193,9 @@ src
 
 ### Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
-
-- _Add user account and auth capabilities._
-- _Utilize the Giphy API to welcome new users with funny gifs._
+- _Allow choosing any region's content._
+- _Font size toggles/options_
+- _Display full article (requires paid API though)_
 
 <br>
 
