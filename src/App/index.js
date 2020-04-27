@@ -4,10 +4,9 @@ import axios from "axios"
 import { Route, Link } from "react-router-dom"
 import Header from "../Header"
 import Page from "../Page"
+import Settings from "../Settings"
 
 export default function App() {
-
-  //https://newsapi.org/v2/everything?q=nintendo&apiKey=06c96a58f8e3440fb062458011a729da
 
   const baseUrl = "https://newsapi.org/v2/everything?q="
   const apiKey = "&apiKey=06c96a58f8e3440fb062458011a729da"
@@ -41,16 +40,28 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="App">
 
 
-      <Header
-        search={search}
-        setInputValue={setInputValue}
-      />
+      <Route path="/">
+        <Header
+          search={search}
+          setInputValue={setInputValue}
+        />
+
+        {showPage()}
+      </Route>
+
+      <Link to="/settings">
+        <button>Settings</button>
+      </Link>
 
 
-      {showPage()}
+      {/* add settings route */}
+
+      <Route path="/settings">
+        <Settings />
+      </Route>
 
 
     </div>
