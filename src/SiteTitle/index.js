@@ -1,4 +1,5 @@
 import React from 'react'
+import "./SiteTitle.scss"
 
 export default function SiteTitle() {
   return (

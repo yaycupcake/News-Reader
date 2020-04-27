@@ -74,7 +74,8 @@ _The **News Reader** will be responsive, utilize React Router, and pull data fro
 | :--------------: | :----------------------------------------- |
 |   React Router   | _To create multiple "pages" accessed via different URLs._ |
 |      Axios       | _To pull data from the API._ |
-|    Storybook     | _To design components_ |
+|    Storybook     | _To design components._ |
+|    Sass     | _To help make the CSS more DRY._ |
 
 <br>
 
@@ -94,37 +95,37 @@ _The **News Reader** will be responsive, utilize React Router, and pull data fro
 src
 |__ App/
       |__ index.js
-      |__ App.css
+      |__ App.scss
 |__ Header/
       |__ index.js
-      |__ Header.css
+      |__ Header.scss
 |__ SiteTitle/
       |__ index.js
-      |__ SiteTitle.css
+      |__ SiteTitle.scss
 |__ SearchBar/
       |__ index.js
-      |__ SearchBar.css
+      |__ SearchBar.scss
 |__ Page/
       |__ index.js
-      |__ Page.css
+      |__ Page.scss
 |__ NewsCard/
       |__ index.js
-      |__ NewsCard.css
+      |__ NewsCard.scss
 |__ NewsBody/
       |__ index.js
-      |__ NewsBody.css
+      |__ NewsBody.scss
 |__ NewsImage/
       |__ index.js
-      |__ NewsImage.css
+      |__ NewsImage.scss
 |__ SettingsPage/
       |__ index.js
-      |__ SettingsPage.css
+      |__ SettingsPage.scss
 |__ Setting/
       |__ index.js
-      |__ Setting.css
+      |__ Setting.scss
 |__ SettingToggler/
       |__ index.js
-      |__ SettingToggler.css
+      |__ SettingToggler.scss
 
 ```
 
@@ -154,22 +155,22 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Create files for each component |    H     |     1 hrs      |     10m     |     TBD     |
+| Create files for each component |    H     |     1 hrs      |     20m     |     TBD     |
 | Set up React Router |    H     |     3 hrs      |     n hrs     |     TBD     |
-| Define general app structure |    H     |     2 hrs      |     10m hrs     |     TBD     |
+| Define general app structure |    H     |     2 hrs      |     15m hrs     |     TBD     |
 | Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
-| Hook up search bar |    H     |     4 hrs      |      20m     |     TBD     |
-| Pass search query results to other components |    H     |     4 hrs      |     n hrs     |     TBD     |
+| Hook up search bar |    H     |     4 hrs      |      40m     |     TBD     |
+| Pass search query results to other components |    H     |     4 hrs      |     55m     |     TBD     |
 | Handle empty search queries |    H     |     2 hrs      |     n hrs     |     TBD     |
 | Settings page settings |    H     |     4 hrs      |     n hrs     |     TBD     |
 | Design in storybook |    H     |     2 hrs      |     n hrs     |     TBD     |
-| General CSS |    L     |     2 hrs      |     n hrs     |     TBD     |
+| General CSS |    L     |     2 hrs      |     15m     |     TBD     |
 | Mobile CSS |    M     |     2 hrs      |     n hrs     |     TBD     |
 | Tablet CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
 | Desktop CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
 | Clean up code |    M     |     2 hrs      |     n hrs     |     TBD     |
 | General Troubleshooting Time Allotment |    H     |     4 hrs      |     n hrs     |     TBD     |
-| TOTAL               |          |     40 hrs      |     n hrs     |     TBD     |
+| TOTAL               |          |     40 hrs      |      10m     |     TBD     |
 
 <br>
 

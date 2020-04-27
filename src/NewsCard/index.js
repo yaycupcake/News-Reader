@@ -1,9 +1,43 @@
 import React from 'react'
+import "./NewsCard.scss"
 
-export default function index({ content }) {
+export default function index({ articles, index }) {
+
+  const article = articles[index]
+
+  const renderNewsCard = () => {
+    if (articles) {
+      return (
+        <div>
+          <h2>{article.title}</h2>
+          <span className="source">{article.source.name}</span>
+          <span className="author">{article.author}</span>
+          <p className="article">{article.content}</p>
+          {renderNewsCardImage()}
+        </div>
+      )
+    }
+  }
+
+  const renderNewsCardImage = () => {
+
+    if (article.urlToImage) {
+      return (
+        <img
+          className="article-image"
+          src={article.urlToImage}
+          alt={`${article.title}`}
+        />
+      )
+    }
+  }
+
   return (
-    <div>
-      {content}
-    </div>
+    <section className="NewsCard">
+
+      {renderNewsCard()}
+
+    </section>
   )
 }
+
