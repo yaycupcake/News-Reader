@@ -30,7 +30,7 @@ _**News Reader** is an app that will let people search for news. It will allow p
 
 ### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
+Click "Details" to expand and view image.
 
 <details>
 
@@ -41,8 +41,6 @@ _**News Reader** is an app that will let people search for news. It will allow p
 <br>
 
 ### MVP
-
-> The Minimum Viable Product should be a well-planned and easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
 _The **News Reader** will be responsive, utilize React Router, and pull data from the News API. It will display news headlines and some content from news articles (as allowed by the API's free tier), based on a user's search input._
 
@@ -134,8 +132,6 @@ src
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
-
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    App    | functional |   y   |   y   | _The file in which everything will stem from._               |
@@ -156,17 +152,13 @@ src
 
 #### Component Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
-
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Create files for each component |    H     |     1 hrs      |     n hrs     |     TBD     |
+| Create files for each component |    H     |     1 hrs      |     10m     |     TBD     |
 | Set up React Router |    H     |     3 hrs      |     n hrs     |     TBD     |
-| Define general app structure |    H     |     2 hrs      |     n hrs     |     TBD     |
-| Connect to API |    H     |     2 hrs      |     n hrs     |     TBD     |
-| Hook up search bar |    H     |     4 hrs      |     n hrs     |     TBD     |
+| Define general app structure |    H     |     2 hrs      |     10m hrs     |     TBD     |
+| Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
+| Hook up search bar |    H     |     4 hrs      |      20m     |     TBD     |
 | Pass search query results to other components |    H     |     4 hrs      |     n hrs     |     TBD     |
 | Handle empty search queries |    H     |     2 hrs      |     n hrs     |     TBD     |
 | Settings page settings |    H     |     4 hrs      |     n hrs     |     TBD     |
@@ -183,7 +175,7 @@ src
 
 #### Helper Functions
 
-> Use this section to document all helper functions– generic functions that can be reused in other applications.
+<!-- > Use this section to document all helper functions– generic functions that can be reused in other applications. -->
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
@@ -205,8 +197,8 @@ src
 
 ### Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+<!-- > Use this section to include a brief code snippet of functionality that you are proud of and a brief description. -->
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+<!-- > Use this section to list of all major issues encountered and their resolution, if you'd like. -->
