@@ -170,7 +170,7 @@ src
 | Desktop CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
 | Clean up code |    M     |     2 hrs      |     10m     |     TBD     |
 | General Troubleshooting Time Allotment |    H     |     4 hrs      |     n hrs     |     TBD     |
-| TOTAL               |          |     40 hrs      |      10m     |     TBD     |
+| TOTAL               |          |     40 hrs      |      TBD     |     TBD     |
 
 <br>
 
