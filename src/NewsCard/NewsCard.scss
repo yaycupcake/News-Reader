@@ -12,6 +12,18 @@
   height: auto;
   }
 
+  .source, .author {
+    display: block;
+  }
+
+  .source:before {
+    content: "Source: "
+  }
+
+  .author:before {
+    content: "Author: "
+  }
+
 }
 
 
