@@ -6,7 +6,7 @@ import { Route, Link } from "react-router-dom"
 export default function App() {
   return (
     <div>
-      news reader
+      news readeraaaaa
     </div>
   )
 }

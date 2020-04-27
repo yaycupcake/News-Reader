@@ -171,11 +171,11 @@ src
 | Handle empty search queries |    H     |     2 hrs      |     n hrs     |     TBD     |
 | Settings page settings |    H     |     4 hrs      |     n hrs     |     TBD     |
 | Design in storybook |    H     |     2 hrs      |     n hrs     |     TBD     |
-| General CSS |    H     |     2 hrs      |     n hrs     |     TBD     |
-| Mobile CSS |    H     |     2 hrs      |     n hrs     |     TBD     |
-| Tablet CSS |    H     |     3 hrs      |     n hrs     |     TBD     |
-| Desktop CSS |    H     |     3 hrs      |     n hrs     |     TBD     |
-| Clean up code |    H     |     2 hrs      |     n hrs     |     TBD     |
+| General CSS |    L     |     2 hrs      |     n hrs     |     TBD     |
+| Mobile CSS |    M     |     2 hrs      |     n hrs     |     TBD     |
+| Tablet CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
+| Desktop CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
+| Clean up code |    M     |     2 hrs      |     n hrs     |     TBD     |
 | General Troubleshooting Time Allotment |    H     |     4 hrs      |     n hrs     |     TBD     |
 | TOTAL               |          |     40 hrs      |     n hrs     |     TBD     |
 
