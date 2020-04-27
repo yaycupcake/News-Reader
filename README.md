@@ -157,7 +157,7 @@ src
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Create files for each component |    H     |     1h 10m      |     20m     |     TBD     |
 | Set up React Router |    H     |     3 hrs      |     20m     |     TBD     |
-| Define general app structure |    H     |     2 hrs      |     15m hrs     |     TBD     |
+| Define general app structure |    H     |     2 hrs      |     15m     |     TBD     |
 | Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
 | Hook up search bar |    H     |     4 hrs      |      40m     |     TBD     |
 | Pass search query results to other components |    H     |     4 hrs      |     55m     |     TBD     |
