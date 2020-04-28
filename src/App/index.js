@@ -5,6 +5,7 @@ import { Route, Link } from "react-router-dom"
 import Header from "../Header"
 import Page from "../Page"
 import Settings from "../Settings"
+import Button from "../Button"
 
 export default function App() {
 
@@ -20,6 +21,8 @@ export default function App() {
   const search = () => {
     if (inputValue) {
       queryApi(inputValue)
+    } else {
+      alert("Please enter a search query!")
     }
   }
 
@@ -31,7 +34,11 @@ export default function App() {
 
   //if the api call has happened after a search is executed, display page component with data passed to it
   const showPage = () => {
-    if (data) {
+    if (data && !data.totalResults) {
+      return (
+        <p>No News Found.</p>
+      )
+    } else if (data) {
       return (
         <Page
           data={data}
@@ -55,7 +62,10 @@ export default function App() {
       </Route>
 
       <Link to="/settings">
-        <button className="to-settings">Settings</button>
+        <Button
+          className="to-settings"
+          value="Settings"
+        />
       </Link>
 
 

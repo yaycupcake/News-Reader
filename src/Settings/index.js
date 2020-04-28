@@ -2,6 +2,7 @@ import React from 'react'
 import "./Settings.scss"
 import { Link } from "react-router-dom"
 import Setting from "../Setting"
+import Button from "../Button"
 
 export default function Settings({ setColor, setShowImages }) {
   return (
@@ -9,7 +10,7 @@ export default function Settings({ setColor, setShowImages }) {
 
       Settings
       <Link to="/">
-        <button>Close</button>
+        <Button value="Close" />
       </Link>
       <Setting
         setting="Theme"

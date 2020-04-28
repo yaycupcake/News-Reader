@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SearchBar.scss"
+import Button from "../Button"
 
 export default function SearchBar({ search, setInputValue }) {
   return (
@@ -9,11 +10,10 @@ export default function SearchBar({ search, setInputValue }) {
         placeholder="Search"
         onChange={e => setInputValue(e.target.value)}
       />
-      <button
+      <Button
         onClick={search}
-      >
-        Go
-        </button>
+        value="Go"
+      />
     </div>
   )
 }

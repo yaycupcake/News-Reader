@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from "../Button"
 
 export default function Setting({ setting, set, options, labels }) {
   return (
@@ -7,12 +8,11 @@ export default function Setting({ setting, set, options, labels }) {
 
       {options.map((option, index) =>
 
-        <button
+        <Button
           onClick={() => set(option)}
           key={index}
-        >
-          {labels[index]}
-        </button>
+          value={labels[index]}
+        />
 
       )
       }

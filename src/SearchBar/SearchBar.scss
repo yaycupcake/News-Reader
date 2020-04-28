@@ -1,4 +1,5 @@
 .SearchBar{
+  display: flex;
 
   input[type="search"]{
     background-color: white;
@@ -6,8 +7,7 @@
     width: 90%
   }
   
-  button {
+  .Button {
     width: 10%;
-    font-size: 1em;
   }
 }
