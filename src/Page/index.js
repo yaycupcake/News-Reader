@@ -2,7 +2,7 @@ import React from 'react'
 import NewsCard from "../NewsCard"
 import "./Page.scss"
 
-export default function Page({ data }) {
+export default function Page({ data, showImages }) {
   return (
     <main className="Page">
 
@@ -11,6 +11,7 @@ export default function Page({ data }) {
           key={index}
           index={index}
           articles={data.articles}
+          showImages={showImages}
         />
 
       )}

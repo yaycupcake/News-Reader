@@ -14,6 +14,7 @@ export default function App() {
   const [inputValue, setInputValue] = useState("")
   const [data, setData] = useState("")
   const [color, setColor] = useState("light")
+  const [showImages, setShowImages] = useState(true)
 
   //fires the query api function based on the current value of the input
   const search = () => {
@@ -25,7 +26,6 @@ export default function App() {
   //this queries the api, and it gets called when a user does a search
   const queryApi = async (query) => {
     const result = await axios(`${baseUrl}${query}${apiKey}`)
-    console.log(result);
     setData(result.data)
   }
 
@@ -35,6 +35,7 @@ export default function App() {
       return (
         <Page
           data={data}
+          showImages={showImages}
         />
       )
     }
@@ -63,6 +64,7 @@ export default function App() {
       <Route path="/settings">
         <Settings
           setColor={setColor}
+          setShowImages={setShowImages}
         />
       </Route>
 

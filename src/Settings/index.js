@@ -3,11 +3,11 @@ import "./Settings.scss"
 import { Link } from "react-router-dom"
 import Setting from "../Setting"
 
-export default function Settings({ setColor }) {
+export default function Settings({ setColor, setShowImages }) {
   return (
     <aside className="Settings">
 
-      le settings page tm
+      Settings
       <Link to="/">
         <button>Close</button>
       </Link>
@@ -16,6 +16,12 @@ export default function Settings({ setColor }) {
         set={setColor}
         options={["light", "dark"]}
         labels={["Light Theme", "Dark Theme"]}
+      />
+      <Setting
+        setting="Images"
+        set={setShowImages}
+        options={[true, false]}
+        labels={["On", "Off"]}
       />
     </aside>
   )

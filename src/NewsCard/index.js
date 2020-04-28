@@ -1,7 +1,7 @@
 import React from 'react'
 import "./NewsCard.scss"
 
-export default function index({ articles, index }) {
+export default function index({ articles, index, showImages }) {
 
   const article = articles[index]
 
@@ -21,7 +21,7 @@ export default function index({ articles, index }) {
 
   const renderNewsCardImage = () => {
 
-    if (article.urlToImage) {
+    if (article.urlToImage && showImages) {
       return (
         <img
           className="article-image"
