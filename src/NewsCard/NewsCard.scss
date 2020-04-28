@@ -1,5 +1,6 @@
 .NewsCard {
-  border: 1px solid black;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
   margin: 1em;
   padding: 1em;
 
@@ -8,7 +9,6 @@
 
     a {
       color: inherit;
-      text-decoration: none;
     }
   }
 

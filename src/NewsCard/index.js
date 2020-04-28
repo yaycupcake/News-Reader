@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NewsCard.scss"
-
+import { ReactComponent as ExternalLinkIcon } from "../external-link-alt-solid.svg"
 export default function index({ articles, index, showImages }) {
 
   const article = articles[index]
@@ -10,11 +10,13 @@ export default function index({ articles, index, showImages }) {
       return (
         <div>
           <h2>
+            {article.title}&nbsp;
             <a
               href={article.url}
               target="_blank"
+              rel="noopener noreferrer"
             >
-              {article.title}
+              <ExternalLinkIcon height={14} />
             </a>
           </h2>
           <span
@@ -50,7 +52,10 @@ export default function index({ articles, index, showImages }) {
 
   const renderNewsCardImage = () => {
 
-    if (article.urlToImage && showImages) {
+
+    if (!article.urlToImage || !showImages) {
+      return
+    } else {
       return (
         <img
           className="article-image"
