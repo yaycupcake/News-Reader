@@ -23,6 +23,7 @@ export default function Settings({ setColor, setShowImages }) {
         options={[true, false]}
         labels={["On", "Off"]}
       />
+
     </aside>
   )
 }

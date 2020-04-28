@@ -10,8 +10,8 @@ export default function index({ articles, index, showImages }) {
       return (
         <div>
           <h2>{article.title}</h2>
-          <span className="source">{article.source.name}</span>
-          <span className="author">{article.author}</span>
+          <span className="source">{article.source.name ? article.source.name : "unknown"}</span>
+          <span className="author">{article.author ? article.author : "unknown"}</span>
           <p className="article">{article.content}</p>
           {renderNewsCardImage()}
         </div>
