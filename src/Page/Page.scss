@@ -1,4 +1,11 @@
 .Page {
-  background-color: whitesmoke;
   padding: 1em 0;
+}
+
+.light .Page {
+  background-color: whitesmoke;
+}
+
+.dark .Page {
+  background-color: #333;
 }

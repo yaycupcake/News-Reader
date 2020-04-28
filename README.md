@@ -155,16 +155,16 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Create files for each component |    H     |     1h 10m      |     20m     |     TBD     |
+| Create files for each component |    H     |     1h 15m      |     20m     |     TBD     |
 | Set up React Router |    H     |     3 hrs      |     20m     |     TBD     |
 | Define general app structure |    H     |     2 hrs      |     15m     |     TBD     |
 | Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
 | Hook up search bar |    H     |     4 hrs      |      40m     |     TBD     |
 | Pass search query results to other components |    H     |     4 hrs      |     55m     |     TBD     |
 | Handle empty search queries |    H     |     2 hrs      |     5m     |     TBD     |
-| Settings page settings |    H     |     4 hrs      |     n hrs     |     TBD     |
+| Settings page settings |    H     |     4 hrs      |     25 hrs     |     TBD     |
 | Design in storybook |    H     |     2 hrs      |     10m     |     TBD     |
-| General CSS |    L     |     2 hrs      |     1h 10m     |     TBD     |
+| General CSS |    L     |     2 hrs      |     1h 25m     |     TBD     |
 | Mobile CSS |    M     |     2 hrs      |     n hrs     |     TBD     |
 | Tablet CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
 | Desktop CSS |    M     |     3 hrs      |     n hrs     |     TBD     |

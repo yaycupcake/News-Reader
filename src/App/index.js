@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import "./App.scss"
 import axios from "axios"
 import { Route, Link } from "react-router-dom"
@@ -13,6 +13,7 @@ export default function App() {
 
   const [inputValue, setInputValue] = useState("")
   const [data, setData] = useState("")
+  const [color, setColor] = useState("light")
 
   //fires the query api function based on the current value of the input
   const search = () => {
@@ -40,7 +41,7 @@ export default function App() {
   }
 
   return (
-    <div className="App">
+    <div className={`App ${color}`}>
 
 
       <Route path="/">
@@ -53,14 +54,16 @@ export default function App() {
       </Route>
 
       <Link to="/settings">
-        <button>Settings</button>
+        <button className="to-settings">Settings</button>
       </Link>
 
 
       {/* add settings route */}
 
       <Route path="/settings">
-        <Settings />
+        <Settings
+          setColor={setColor}
+        />
       </Route>
 
 
