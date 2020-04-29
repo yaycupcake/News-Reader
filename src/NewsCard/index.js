@@ -38,12 +38,8 @@ export default function index({ articles, index, showImages }) {
             }
           </span>
           <article>
-            <p
-              className="article"
-            >
-              {
-                article.content
-              }
+            <p className="article">
+              {article.description ? article.description : article.content}
             </p>
             {renderNewsCardImage()}
           </article>

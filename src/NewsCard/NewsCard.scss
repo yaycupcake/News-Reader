@@ -10,6 +10,19 @@
     a {
       color: inherit;
     }
+
+
+    //tablet
+    @media screen and (min-width: 750px) {
+      font-size: 1.75em;
+    }
+
+    //desktop
+    @media screen and (min-width: 1000px) {
+      font-size: 2em;
+    }
+
+
   }
 
   .article-image {
@@ -29,16 +42,28 @@
     content: "Author: "
   }
 
+  .article {
+    overflow-wrap: anywhere;
+    // this is just in case an article is including some really long string
+    // which otherwise may break formatting.
+    // for example, if the article is showing a very long URL.
+  }
+
 
 //tablet
 @media screen and (min-width: 750px) {
   article{
     display: flex;
+    justify-content: space-between;
 
-.article-image {
-  width: 40%;
-  margin: 1em 0 0 1em;
-}
+    .article-image {
+      width: 40%;
+      margin: 1em 0 0 1em;
+    }
+
+    .article {
+      font-size: 1.25em;
+    }
 
   }
 }

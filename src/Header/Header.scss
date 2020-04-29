@@ -1,14 +1,14 @@
 header {
   padding: 1em;
 
-//desktop
-@media screen and (min-width: 1000px) {
-  display: flex;
-  justify-content: space-between;
+  //desktop
+  @media screen and (min-width: 1000px) {
+    display: flex;
+    justify-content: space-between;
 
-  .SearchBar {
-    margin: 0 12.5em 0 5em;
+    .SearchBar {
+      margin: 0 12.5em 0 5em;
+    }
   }
-}
 
 }
