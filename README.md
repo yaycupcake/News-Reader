@@ -123,9 +123,9 @@ src
 |__ Setting/
       |__ index.js
       |__ Setting.scss
-|__ SettingToggler/
+|__ Button/
       |__ index.js
-      |__ SettingToggler.scss
+      |__ Button.scss
 
 ```
 
@@ -145,7 +145,7 @@ src
 |    NewsImage    | functional |   n   |   y   | _Will display the image for the article, if any._               |
 |    SettingsPage    | functional |   n   |   y   | _The page for settings._               |
 |    Setting    | functional |   n   |   y   | _An individual setting._               |
-|    SettingToggler    | functional |   n   |   y   | _The toggler for an individual setting._               |
+|    Button    | functional |   n   |   y   | _A reusable button._               |
 
 
 
@@ -157,17 +157,17 @@ src
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Create files for each component |    H     |     1h 15m      |     20m     |     TBD     |
 | Set up React Router |    H     |     3 hrs      |     20m     |     TBD     |
-| Define general app structure |    H     |     2 hrs      |     35m     |     TBD     |
+| Define general app structure |    H     |     2 hrs      |     45m     |     TBD     |
 | Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
 | Hook up search bar |    H     |     4 hrs      |      40m     |     TBD     |
 | Pass search query results to other components |    H     |     4 hrs      |     55m     |     TBD     |
 | Handle empty search queries |    H     |     2 hrs      |     40m     |     TBD     |
 | Settings page settings |    H     |     4 hrs      |     1 h 10m     |     TBD     |
-| Design in storybook |    H     |     2 hrs      |     20m     |     TBD     |
+| Design in storybook |    H     |     2 hrs      |     50m     |     TBD     |
 | General CSS |    L     |     2 hrs      |     3hm     |     TBD     |
-| Mobile CSS |    M     |     2 hrs      |     5m     |     TBD     |
-| Tablet CSS |    M     |     3 hrs      |     10m     |     TBD     |
-| Desktop CSS |    M     |     3 hrs      |     30m     |     TBD     |
+| Mobile CSS |    M     |     2 hrs      |     15m     |     TBD     |
+| Tablet CSS |    M     |     3 hrs      |     20m     |     TBD     |
+| Desktop CSS |    M     |     3 hrs      |     45m     |     TBD     |
 | Clean up code |    M     |     2 hrs      |     10m     |     TBD     |
 | General Troubleshooting Time Allotment |    H     |     4 hrs      |     n hrs     |     TBD     |
 | TOTAL               |          |     40 hrs      |      TBD     |     TBD     |
@@ -198,7 +198,28 @@ src
 
 ### Code Showcase
 
-<!-- > Use this section to include a brief code snippet of functionality that you are proud of and a brief description. -->
+<details>
+
+```
+  //if the api call has happened after a search is executed, display page component with data passed to it
+  const showPage = () => {
+    if (data && !data.totalResults) {
+      return (
+        <p>No News Found.</p>
+      )
+    } else if (data) {
+      return (
+        <Page
+          data={data}
+          showImages={showImages}
+        />
+      )
+    }
+  }
+
+```
+
+</details>
 
 ### Code Issues & Resolutions
 

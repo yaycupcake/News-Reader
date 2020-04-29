@@ -27,6 +27,13 @@ export default function Settings({ setColor, setShowImages }) {
         labels={["On", "Off"]}
       />
 
+      <br />
+      <hr />
+
+      <p>This app is powered by <a href="https://newsapi.org/">NewsApi.org</a></p>
+      <p>External link icon for news headlines is from <a href="https://fontawesome.com/license/free">FontAwesome</a></p>
+      <p>App created by Janis Rancourt (Github <a href="https://github.com/yaycupcake">yaycupcake)</a></p>
+
     </aside>
   )
 }

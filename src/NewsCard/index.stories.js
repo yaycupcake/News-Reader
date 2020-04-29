@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import NewsCard from "./index"
 
-
 const articles = [
   {
     "source": {
@@ -45,4 +44,4 @@ storiesOf('NewsCard', module)
       articles={articles}
     />
   )
-
+// Note that due to the way the images are displayed (based on state), this second view doesn't show images, as the storybook isn't reading the state.
