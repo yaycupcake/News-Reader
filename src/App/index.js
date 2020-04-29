@@ -23,6 +23,7 @@ export default function App() {
       queryApi(inputValue)
     } else {
       alert("Please enter a search query!")
+      //set state for error
     }
   }
 
@@ -47,6 +48,9 @@ export default function App() {
       )
     }
   }
+
+  //add conditional render for errors
+  //based on a new error state
 
   return (
     <div className={`App ${color}`}>

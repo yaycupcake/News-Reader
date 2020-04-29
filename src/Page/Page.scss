@@ -1,4 +1,13 @@
 .Page {
   padding: 1em 0;
   background-color: var(--off-bg-color);
+
+
+//desktop
+  @media screen and (min-width: 1000px) {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+
 }

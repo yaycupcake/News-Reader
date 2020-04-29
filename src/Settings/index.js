@@ -8,9 +8,11 @@ export default function Settings({ setColor, setShowImages }) {
   return (
     <aside className="Settings">
 
-      Settings
+      <h2>Settings</h2>
       <Link to="/">
-        <Button value="Close" />
+        <Button
+          className="to-settings"
+          value="Close" />
       </Link>
       <Setting
         setting="Theme"

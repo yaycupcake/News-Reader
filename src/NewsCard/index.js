@@ -16,7 +16,7 @@ export default function index({ articles, index, showImages }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ExternalLinkIcon height={14} />
+              <ExternalLinkIcon height={`.75em`} />
             </a>
           </h2>
           <span
@@ -37,21 +37,22 @@ export default function index({ articles, index, showImages }) {
                 : "unknown"
             }
           </span>
-          <p
-            className="article"
-          >
-            {
-              article.content
-            }
-          </p>
-          {renderNewsCardImage()}
+          <article>
+            <p
+              className="article"
+            >
+              {
+                article.content
+              }
+            </p>
+            {renderNewsCardImage()}
+          </article>
         </div>
       )
     }
   }
 
   const renderNewsCardImage = () => {
-
 
     if (!article.urlToImage || !showImages) {
       return
@@ -64,6 +65,7 @@ export default function index({ articles, index, showImages }) {
         />
       )
     }
+
   }
 
   return (

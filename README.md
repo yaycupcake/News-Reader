@@ -164,7 +164,7 @@ src
 | Handle empty search queries |    H     |     2 hrs      |     40m     |     TBD     |
 | Settings page settings |    H     |     4 hrs      |     1 h 10m     |     TBD     |
 | Design in storybook |    H     |     2 hrs      |     10m     |     TBD     |
-| General CSS |    L     |     2 hrs      |     1h 45m     |     TBD     |
+| General CSS |    L     |     2 hrs      |     2h 45m     |     TBD     |
 | Mobile CSS |    M     |     2 hrs      |     n hrs     |     TBD     |
 | Tablet CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
 | Desktop CSS |    M     |     3 hrs      |     n hrs     |     TBD     |
