@@ -18,4 +18,9 @@
     width: 15%;
     height: 2.5rem;
   }
+
+    //desktop
+    @media screen and (min-width: 1000px) {
+      width: 50%;
+    }
 }
