@@ -63,7 +63,7 @@ _The **News Reader** will be responsive, utilize React Router, and pull data fro
 - _Display news article details based on search term_
 - _Handle errors if user's search term is blank_
 - _Link back to original article source_
-- _Credit the API with a link in footer, readme, or about/credits page, as required for usage_
+- _Credit the API with a link, as required for usage (has been added to the bottom of the settings page)_
 
 
 <br>
@@ -88,8 +88,6 @@ _The **News Reader** will be responsive, utilize React Router, and pull data fro
 <br>
 
 #### Component Hierarchy
-
-> Use this section to define your React components and the data architecture of your app.
 
 ```
 src
@@ -176,8 +174,6 @@ src
 
 #### Helper Functions
 
-<!-- > Use this section to document all helper functions– generic functions that can be reused in other applications. -->
-
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
 | Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
@@ -189,6 +185,7 @@ src
 - _Allow choosing any region's content._
 - _Font size toggles/options_
 - _Display full article (requires paid API though)_
+- _Put light/dark theme toggle in local storage_
 
 <br>
 
@@ -221,6 +218,7 @@ src
 
 </details>
 
-### Code Issues & Resolutions
+### Changelog
 
-<!-- > Use this section to list of all major issues encountered and their resolution, if you'd like. -->
+- Updated location of link back to API in MVP
+- 

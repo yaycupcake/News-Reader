@@ -13,9 +13,7 @@ export default function Page({ data, showImages }) {
           articles={data.articles}
           showImages={showImages}
         />
-
       )}
-
 
     </main>
   )

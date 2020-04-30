@@ -49,7 +49,6 @@ export default function index({ articles, index, showImages }) {
   }
 
   const renderNewsCardImage = () => {
-
     if (!article.urlToImage || !showImages) {
       return
     } else {
@@ -61,7 +60,6 @@ export default function index({ articles, index, showImages }) {
         />
       )
     }
-
   }
 
   return (
