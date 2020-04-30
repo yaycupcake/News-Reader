@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./App.scss"
 import axios from "axios"
 import { Route, Link } from "react-router-dom"
@@ -16,13 +16,21 @@ export default function App() {
   const [data, setData] = useState("")
   const [color, setColor] = useState("light")
   const [showImages, setShowImages] = useState(true)
+  const [error, setError] = useState("")
+
+
+  useEffect(() => {
+    setError(data && !data.totalResults ? "No results found for that query." : "")
+  }, [data])
+
 
   //fires the query api function based on the current value of the input
   const search = () => {
     if (inputValue) {
+      setError("") //clears any previous error message
       queryApi(inputValue)
     } else {
-      alert("Please enter a search query!")
+      setError("Please enter a search query!")
       //set state for error
     }
   }
@@ -35,11 +43,7 @@ export default function App() {
 
   //if the api call has happened after a search is executed, display page component with data passed to it
   const showPage = () => {
-    if (data && !data.totalResults) {
-      return (
-        <p>No News Found.</p>
-      )
-    } else if (data) {
+    if (data && data.totalResults) {
       return (
         <Page
           data={data}
@@ -49,8 +53,21 @@ export default function App() {
     }
   }
 
+
+
   //add conditional render for errors
   //based on a new error state
+
+  const showError = () => {
+    if (error) {
+      return (
+        <p className="error-message">{error}</p>
+      )
+    } else {
+      return
+    }
+  }
+
 
   return (
     <div className={`App ${color}`}>
@@ -61,7 +78,7 @@ export default function App() {
           search={search}
           setInputValue={setInputValue}
         />
-
+        {showError()}
         {showPage()}
       </Route>
 
