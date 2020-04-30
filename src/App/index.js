@@ -20,8 +20,15 @@ export default function App() {
 
 
   useEffect(() => {
+    //set error message if the api has returned data but there are no articles in it
     setError(data && !data.totalResults ? "No results found for that query." : "")
   }, [data])
+
+  const handleEnter = (e) => {
+    if (e.key === "Enter") {
+      search()
+    }
+  }
 
 
   //fires the query api function based on the current value of the input
@@ -72,11 +79,13 @@ export default function App() {
   return (
     <div className={`App ${color}`}>
 
-
+      {/* deliberately not using exact path in order for
+      the settings page to float above the main content */}
       <Route path="/">
         <Header
           search={search}
           setInputValue={setInputValue}
+          handleEnter={handleEnter}
         />
         {showError()}
         {showPage()}

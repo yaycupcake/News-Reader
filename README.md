@@ -159,9 +159,9 @@ src
 | Set up React Router |    H     |     3 hrs      |     20m     |     TBD     |
 | Define general app structure |    H     |     2 hrs      |     45m     |     TBD     |
 | Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
-| Hook up search bar |    H     |     4 hrs      |      40m     |     TBD     |
+| Hook up search bar |    H     |     4 hrs      |      50m     |     TBD     |
 | Pass search query results to other components |    H     |     4 hrs      |     55m     |     TBD     |
-| Handle empty search queries |    H     |     2 hrs      |     40m     |     TBD     |
+| Handle empty search queries |    H     |     2 hrs      |     1h     |     TBD     |
 | Settings page settings |    H     |     4 hrs      |     1 h 10m     |     TBD     |
 | Design in storybook |    H     |     2 hrs      |     50m     |     TBD     |
 | General CSS |    L     |     2 hrs      |     3hm     |     TBD     |
@@ -169,7 +169,7 @@ src
 | Tablet CSS |    M     |     3 hrs      |     20m     |     TBD     |
 | Desktop CSS |    M     |     3 hrs      |     45m     |     TBD     |
 | Clean up code |    M     |     2 hrs      |     10m     |     TBD     |
-| General Troubleshooting Time Allotment |    H     |     4 hrs      |     n hrs     |     TBD     |
+| General Troubleshooting Time Allotment |    H     |     4 hrs      |     1h 30m hrs     |     TBD     |
 | TOTAL               |          |     40 hrs      |      TBD     |     TBD     |
 
 <br>
