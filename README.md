@@ -153,30 +153,22 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Create files for each component |    H     |     1h 15m      |     20m     |     TBD     |
-| Set up React Router |    H     |     3 hrs      |     20m     |     TBD     |
-| Define general app structure |    H     |     2 hrs      |     45m     |     TBD     |
-| Connect to API |    H     |     2 hrs      |     10m     |     TBD     |
-| Hook up search bar |    H     |     4 hrs      |      50m     |     TBD     |
-| Pass search query results to other components |    H     |     4 hrs      |     55m     |     TBD     |
-| Handle empty search queries |    H     |     2 hrs      |     1h     |     TBD     |
-| Settings page settings |    H     |     4 hrs      |     1 h 10m     |     TBD     |
-| Design in storybook |    H     |     2 hrs      |     50m     |     TBD     |
-| General CSS |    L     |     2 hrs      |     3hm     |     TBD     |
-| Mobile CSS |    M     |     2 hrs      |     15m     |     TBD     |
-| Tablet CSS |    M     |     3 hrs      |     20m     |     TBD     |
-| Desktop CSS |    M     |     3 hrs      |     45m     |     TBD     |
-| Clean up code |    M     |     2 hrs      |     10m     |     TBD     |
-| General Troubleshooting Time Allotment |    H     |     4 hrs      |     1h 30m hrs     |     TBD     |
-| TOTAL               |          |     40 hrs      |      TBD     |     TBD     |
-
-<br>
-
-#### Helper Functions
-
-|  Function  | Description                                |
-| :--------: | :----------------------------------------- |
-| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
+| Create files for each component |    H     |     1h 15m      |     20m     |     20m     |
+| Set up React Router |    H     |     3 hrs      |     20m     |     20m     |
+| Define general app structure |    H     |     2 hrs      |     45m     |     45m     |
+| Connect to API |    H     |     2 hrs      |     10m     |     10m     |
+| Hook up search bar |    H     |     4 hrs      |      50m     |     50m     |
+| Pass search query results to other components |    H     |     4 hrs      |     55m     |     55m     |
+| Handle empty search queries |    H     |     2 hrs      |     1h     |     1h     |
+| Settings page settings |    H     |     4 hrs      |     1 h 10m     |     1h 10m     |
+| Design in storybook |    H     |     2 hrs      |     50m     |     50m     |
+| General CSS |    L     |     2 hrs      |     3h     |     3h     |
+| Mobile CSS |    M     |     2 hrs      |     15m     |     2h     |
+| Tablet CSS |    M     |     3 hrs      |     20m     |     20m     |
+| Desktop CSS |    M     |     3 hrs      |     45m     |     45m     |
+| Clean up code |    M     |     2 hrs      |     10m     |     10m     |
+| General Troubleshooting Time Allotment |    H     |     4 hrs      |     1h 30m hrs     |     1h 30m     |
+| TOTAL               |          |     40 hrs      |      12h 20m     |     12h 20m     |
 
 <br>
 
