@@ -24,6 +24,8 @@
 
 ### Overview
 
+**[Click here for live site](https://yaycupcake-news-reader.netlify.app/)**
+
 _**News Reader** is an app that will let people search for news. It will allow people to look up any search terms and return relevant articles. It can return articles only from the US or it can return articles from all around the world. It will pull data from the [News API](https://newsapi.org/)._
 
 <br>
