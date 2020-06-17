@@ -26,6 +26,8 @@
 
 **[Click here for live site](https://yaycupcake-news-reader.netlify.app/)**
 
+_**UPDATE** It turns out that the News API I used for this no longer allows the free developer plan to make API calls from the browser. Therefore, the live site no longer works. At this time, as I do not plan to monetize this project, I can't afford a paid plan. If you would like to demo this, please clone the repository to your local machine, as requests from localhost should still work._
+
 _**News Reader** is an app that will let people search for news. It will allow people to look up any search terms and return relevant articles. It can return articles only from the US or it can return articles from all around the world. It will pull data from the [News API](https://newsapi.org/)._
 
 <br>
